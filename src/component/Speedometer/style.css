@@ -1,0 +1,47 @@
+.canvas {
+  position: relative;
+}
+.speed {
+  position: absolute;
+  color: white;
+  top: 200px;
+  width: 100%;
+  text-align: center;
+  /* background-color: pink; */
+  font-size: 100px;
+}
+
+.speed span {
+  color: orange;
+  font-size: small;
+}
+svg {
+  background-color: #000;
+}
+
+.small-divisions {
+  stroke-linecap: butt;
+  stroke: orange;
+}
+
+.large-divisions {
+  stroke-linecap: butt;
+  stroke: white;
+}
+
+.dial {
+  stroke: orange;
+  stroke-linecap: round;
+  stroke-opacity: 0.3;
+}
+.dial.solid {
+  stroke-opacity: 0.6;
+}
+
+.dial.pointer {
+  stroke: white;
+}
+
+text {
+  color: white;
+}
